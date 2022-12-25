@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "CompanyTitle": "Amazon",
+    "CompanyType": [
+      { "Type1": "NEW!" },
+      { "Type2": "FEATURED" }
+    ],
+    "JobRole" : "Software Development Engineer",
+    "JobDetails" : ["1d ago", "Full Time", "USA only"],
+    "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "CompanyTitle": "Samsung",
+    "CompanyType": [
+      { "Type1": "NEW!" },
+      { "Type2": "FEATURED" }
+    ],
+    "JobRole" : "Software Engineer",
+    "JobDetails" : ["1w ago", "Full Time", "UK only"],
+    "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript", "JAVA"]
+  },
+  {
+    "id": 3,
+    "CompanyTitle": "Apple",
+    "CompanyType": [
+      { "Type1": "" },
+      { "Type2": "FEATURED" }
+    ],
+    "JobRole" : "QA Engineer",
+    "JobDetails" : ["3d ago", "Part Time", "India only"],
+    "TechStacks" : [ "Jest", "Mocha" , "BlackBox"]
+  },
+  {
+    "id": 4,
+    "CompanyTitle": "Mircosoft",
+    "CompanyType": [
+      { "Type1": "NEW!" },
+      { "Type2": "FEATURED" }
+    ],
+    "JobRole" : "Back-End Engineer",
+    "JobDetails" : ["2d ago", "Full Time", "Remote"],
+    "TechStacks" : [ "JAVA", "NodeJs" , "ExpressJs", "MongoDB" , "SQL"]
+  }
+]

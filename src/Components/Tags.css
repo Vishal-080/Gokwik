@@ -1,0 +1,29 @@
+.techTags {
+  width: auto;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ebf3f5;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 880px){
+
+  .techTags{
+    font-size: 14px;
+  margin: 6px;
+  padding: 8px;
+  }
+
+}
+
+@media only screen and (max-width: 480px){
+
+  .techTags{
+  font-size: 12px;
+  margin: 5px;
+  padding: 6px;
+  }
+
+}
