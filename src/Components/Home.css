@@ -1,6 +1,6 @@
-.bgImageParent{
-    height: 125px;
-    width: 100%;
-    /* border: 1px solid blue; */
-    background-image: url('https://thumbs.dreamstime.com/z/background-blue-triangles-vector-different-color-40812118.jpg');
+.bgImageParent {
+  height: 125px;
+  width: 100%;
+  /* border: 1px solid blue; */
+  background-image: url("https://thumbs.dreamstime.com/z/background-blue-triangles-vector-different-color-40812118.jpg");
 }

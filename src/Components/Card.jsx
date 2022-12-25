@@ -8,7 +8,6 @@ import { useState } from "react";
 const Card = (props) => {
   const [hover, setHover] = useState(false);
 
-
   const handleHover = () => {
     setHover(true);
   };
@@ -31,7 +30,12 @@ const Card = (props) => {
           <div className="companyCard">
             <div className="leftSection">
               <div className="leftSection1">
-                <Avatar className="avatar" name={props.CompanyTitle} size="100" round={true} />
+                <Avatar
+                  className="avatar"
+                  name={props.CompanyTitle}
+                  size="100"
+                  round={true}
+                />
               </div>
               <div className="leftSection2">
                 <div className="companyTitle">{props.CompanyTitle}</div>
@@ -40,11 +44,12 @@ const Card = (props) => {
               </div>
             </div>
             <div className="bottomBorder"></div>
-            
           </div>
         </div>
         <div className="rightSection">
-            {props.TechStacks.map((e)=> <Tags TechStacks= {e} />)}
+          {props.TechStacks.map((e) => (
+            <Tags TechStacks={e} />
+          ))}
         </div>
       </div>
     </>

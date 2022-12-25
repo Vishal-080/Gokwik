@@ -42,5 +42,26 @@
     "JobRole" : "Back-End Engineer",
     "JobDetails" : ["2d ago", "Full Time", "Remote"],
     "TechStacks" : [ "JAVA", "NodeJs" , "ExpressJs", "MongoDB" , "SQL"]
+  },
+  {
+    "id": 5,
+    "CompanyTitle": "IBM",
+    "CompanyType": [
+      { "Type1": "NEW!" }
+    ],
+    "JobRole" : "Senior Software Engineer",
+    "JobDetails" : ["4d ago", "Full Time", "UK only"],
+    "TechStacks" : [ "NodeJs", "ExpressJs", "MongoDB", "SQL", "ReactJs"]
+  },
+  {
+    "id": 6,
+    "CompanyTitle": "Oracle",
+    "CompanyType": [
+      { "Type1": "NEW!" },
+      { "Type2": "FEATURED" }
+    ],
+    "JobRole" : "Lead Engineer",
+    "JobDetails" : ["1d ago", "Full Time", "Remote"],
+    "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript", "React" , "NodeJs"]
   }
 ]

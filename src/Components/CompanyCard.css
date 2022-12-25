@@ -24,7 +24,7 @@
   width: 100%;
 }
 
-.css-13cymwt-control{ 
+.css-13cymwt-control {
   border: none !important;
 }
 
@@ -101,19 +101,18 @@
   font-size: small;
   align-items: center;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
 }
 
-.Dots{
-    height: 3px;
-    width: 3px;
-    background-color: lightgrey;
-    border: 1px solid lightgrey;
-    border-radius: 50%;
-    margin: 0 16px;
+.Dots {
+  height: 3px;
+  width: 3px;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  margin: 0 16px;
 }
 
-.bottomBorder{
+.bottomBorder {
   display: none;
 }
 
@@ -121,105 +120,102 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width:48%;
+  width: 48%;
   flex-wrap: wrap;
   /* border:1px solid green; */
 }
 
-@media only screen and (max-width: 1200px){
-
-  .companySection{
+@media only screen and (max-width: 1200px) {
+  .companySection {
     /* border:2px solid blue; */
   }
 
-  .company{
+  .company {
     width: 60%;
     font-size: 18px;
     margin-left: 15px;
   }
 
-  .rightSection{
-    width:30%;
+  .rightSection {
+    width: 30%;
     flex-wrap: wrap;
   }
 }
 
-@media only screen and (max-width: 880px){
-
-  .companySection{
+@media only screen and (max-width: 880px) {
+  .companySection {
     /* border:2px solid orange; */
   }
 
-  .company{
+  .company {
     width: 60%;
     font-size: 16px;
     margin-left: 15px;
   }
 
-  .rightSection{
-    width:30%;
+  .rightSection {
+    width: 30%;
     flex-wrap: wrap;
   }
 
-  .companyJobDetails{
+  .companyJobDetails {
     font-size: x-small;
   }
 
-  .Dots{
+  .Dots {
     margin: 0 12px;
   }
 }
 
-@media only screen and (max-width: 480px){
-
-  .companySection{
+@media only screen and (max-width: 480px) {
+  .companySection {
     /* border:2px solid red; */
     flex-direction: column;
     display: block;
     margin: 70px auto;
   }
 
-  .hoverpart{
+  .hoverpart {
     display: none;
   }
 
-  .company{
+  .company {
     width: auto;
   }
 
-  .companyCard{
+  .companyCard {
     flex-direction: column;
     /* margin: 10px auto; */
   }
 
-  .leftSection{
+  .leftSection {
     flex-direction: column;
   }
 
-  .leftSection1{
+  .leftSection1 {
     margin-top: -50px;
   }
 
-  .leftSection1 > avatar{
-    size:"50"
+  .leftSection1 > avatar {
+    size: "50";
   }
 
-  .companyJobDetails{
+  .companyJobDetails {
     font-size: 14px;
   }
 
-  .Dots{
+  .Dots {
     margin: 0 8px;
   }
 
-  .bottomBorder{
+  .bottomBorder {
     width: 90%;
     margin: auto;
     display: flex;
     border-bottom: 1px solid grey;
   }
 
-  .rightSection{
+  .rightSection {
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
@@ -227,7 +223,4 @@
     justify-content: center;
     align-items: center;
   }
-
 }
-
-

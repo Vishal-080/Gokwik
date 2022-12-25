@@ -9,29 +9,23 @@ const Search = (props) => {
     { value: "CSS", label: "CSS" },
     { value: "JavaScript", label: "JavaScript" },
     { value: "JAVA", label: "JAVA" },
+    { value: "Jest", label: "Jest" },
+    { value: "Mocha", label: "Mocha" },
+    { value: "Blackbox", label: "Blackbox" },
+    { value: "NodeJs", label: "NodeJs" },
+    { value: "SQL", label: "SQL" },
+    { value: "Express", label: "Express" },
+    { value: "MongoDB", label: "MongoDB" },
+    { value: "ReactJs", label: "ReactJs" }
   ];
 
-//   const [input, setInput] = useState([]);
-//   const [inputValue, setinputValue] = useState([]);
-
   const handleChange = (e) => {
-    // setInput(e);
-    // console.log(e,"search input data")
-    // console.log(e,"search input data", input );
     props.handleData(e);
   };
-
-//   useEffect(() => {
-//     for (let i = 0; i < input.length; i++) {
-//       setinputValue([...inputValue, input[i].value]);
-//     }
-//   }, [input]);
 
   return (
     <>
       <div className="searchInputContainer">
-        {/* <input className="searchInput" />
-            <p>Clear</p> */}
         <Select
           onChange={handleChange}
           options={options}

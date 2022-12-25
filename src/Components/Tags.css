@@ -8,22 +8,18 @@
   font-size: 16px;
 }
 
-@media only screen and (max-width: 880px){
-
-  .techTags{
+@media only screen and (max-width: 880px) {
+  .techTags {
     font-size: 14px;
-  margin: 6px;
-  padding: 8px;
+    margin: 6px;
+    padding: 8px;
   }
-
 }
 
-@media only screen and (max-width: 480px){
-
-  .techTags{
-  font-size: 12px;
-  margin: 5px;
-  padding: 6px;
+@media only screen and (max-width: 480px) {
+  .techTags {
+    font-size: 12px;
+    margin: 5px;
+    padding: 6px;
   }
-
 }
